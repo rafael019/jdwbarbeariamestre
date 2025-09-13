@@ -1,0 +1,40 @@
+.contato-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: $cor-p3;
+}
+
+.contato {
+  max-width: 500px;
+}
+
+.contato .section-titulo {
+  margin: 0 auto 45px auto;
+}
+
+.form-agenda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.form-agenda label {
+  display: block;
+}
+
+.form-agenda select,
+.form-agenda input {
+  width: 100%;
+  background: $cor-p2;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  color: $cor-b1;
+}
+
+.form-agenda button {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}

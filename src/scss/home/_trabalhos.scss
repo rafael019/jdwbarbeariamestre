@@ -1,0 +1,43 @@
+.trabalhos {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.trabalhos .section-titulo {
+  margin: 0 auto 45px auto;
+}
+
+.trabalhos-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.trabalhos-item {
+  text-align: center;
+}
+
+.trabalhos-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid $cor-m1;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media(max-width:767px) {
+  .trabalhos-lista {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width:465px) {
+  .trabalhos-lista {
+    grid-template-columns: 1fr;
+  }
+}

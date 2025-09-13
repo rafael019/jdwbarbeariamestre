@@ -1,0 +1,67 @@
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Roboto Slab', serif;
+
+.font-1-xl {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.25rem;
+  // 52px
+  font-weight: 600;
+  line-height: 102%;
+  text-transform: uppercase;
+}
+
+.font-1-l {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 3.125rem;
+  // 50
+  line-height: 74px;
+  text-transform: uppercase;
+}
+
+.font-1-m {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+  // 30
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+
+.font-2-m-b,
+.font-2-m {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  // 18px
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.font-2-m-b {
+  font-weight: 800;
+}
+
+.font-2-s {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16rem;
+  // 16px
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.font-2-xs {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  // 12
+  font-weight: 300;
+  line-height: 192%;
+}
+
+.font-3-xs {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 21px;
+}
