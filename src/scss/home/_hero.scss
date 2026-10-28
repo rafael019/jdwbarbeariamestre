@@ -1,19 +1,22 @@
-.introducao-bg {
-  background: url('../img/intro-bg.jpg');
+.hero-bg {
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.introducao {
+.hero {
   padding-top: 170px;
   padding-bottom: 170px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
 }
 
-.introducao h1 {
+.hero h1 {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
-.introducao p {
+.hero p {
   margin-bottom: 30px;
 }

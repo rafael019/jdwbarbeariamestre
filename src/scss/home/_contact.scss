@@ -1,14 +1,14 @@
-.contato-bg {
+.contact-bg {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: $cor-p3;
+  background: var(--var-cor-p3);
 }
 
-.contato {
+.contact {
   max-width: 500px;
 }
 
-.contato .section-titulo {
+.contact .section-titulo {
   margin: 0 auto 45px auto;
 }
 
@@ -26,11 +26,11 @@
 .form-agenda select,
 .form-agenda input {
   width: 100%;
-  background: $cor-p2;
+  background: var(--var-cor-p2);
   border: none;
   padding: 15px;
   border-radius: 5px;
-  color: $cor-b1;
+  color: var(--var-cor-b1);
 }
 
 .form-agenda button {

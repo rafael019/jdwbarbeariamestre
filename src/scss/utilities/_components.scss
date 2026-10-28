@@ -7,22 +7,22 @@
   padding-right: 20px;
 }
 
-.botao {
-  background: $cor-m1;
-  padding: 25px 50px;
+.btn-main {
+  background: var(--var-cor-m1);
+  padding: 16px 48px;
   border-radius: 5px;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 23px;
-  border-bottom: 5px solid #6f3e22;
+  border-bottom: 5px solid var(--var-cor-m2);
   transition: 0.2s;
   max-width: max-content;
 }
 
-.botao:hover {
-  background: #6f3e22;
-  border-bottom: 5px solid $cor-m1;
+.btn-main:hover {
+  background: var(--var-cor-m2);
+  border-bottom: 5px solid var(--var-cor-m1);
 }
 
 .section-titulo {

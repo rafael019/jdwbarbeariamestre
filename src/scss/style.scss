@@ -1,16 +1,16 @@
-@import './utilities/typography';
-@import './utilities/colors';
-@import './global/reset';
+@use './utilities/typography';
+@use './utilities/colors';
+@use './global/reset';
 
-@import './global/header';
-@import './global/footer';
+@use './global/header';
+@use './global/footer';
 
 // Utilidades
-@import './utilities/components';
+@use './utilities/components';
 
 // Home
-@import './home/instroducao';
-@import './home/sobre';
-@import './home/servicos';
-@import './home/trabalhos';
-@import './home/contato';
+@use './home/hero';
+@use './home/about';
+@use './home/services';
+@use './home/works';
+@use './home/contact';
